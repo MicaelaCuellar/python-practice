@@ -129,7 +129,7 @@ def ingresar_float(mensaje):
             ingresando = False
             numero_float = numero
         except ValueError:
-            print("error: no ingresaste un numero decimal valido")
+            print("error: no ingresaste un numero con decimales valido")
     return numero_float
 
 
